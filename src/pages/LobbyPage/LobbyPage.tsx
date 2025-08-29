@@ -9,6 +9,7 @@ import { NavLink } from 'react-router';
 
 const { Content } = Layout;
 const { Title, Paragraph, Text } = Typography;
+
 const LobbyPage: React.FC = () => {
     return (
         <Content

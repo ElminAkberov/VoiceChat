@@ -1,4 +1,12 @@
 @use 'tailwindcss';
+
 .ant-typography {
     margin: 0 !important;
+}
+.ant-row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+.ant-space {
+    line-height: 1 !important;
 }
