@@ -5,6 +5,7 @@ import { IoSearchSharp } from 'react-icons/io5';
 import { FaArrowRight, FaPlus } from 'react-icons/fa6';
 import { Button, Card, Divider, Input, Layout, Space, Typography } from 'antd';
 import styles from './LobbyPage.module.scss';
+import { NavLink } from 'react-router';
 
 const { Content } = Layout;
 const { Title, Paragraph, Text } = Typography;
@@ -46,7 +47,7 @@ const LobbyPage: React.FC = () => {
                     <Space>
                         <IoSearchSharp />
                     </Space>
-                    Browse all rooms
+                    <NavLink to={"/rooms"}>Browse all rooms</NavLink>
                 </Button>
 
                 <Divider plain>or</Divider>

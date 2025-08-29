@@ -1,5 +1,6 @@
 import App from '@/App';
 import LobbyPage from '@/pages/LobbyPage';
+import RoomsPage from '@/pages/MeetingRooms';
 import { createBrowserRouter } from 'react-router';
 
 const router = createBrowserRouter([
@@ -10,6 +11,10 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <LobbyPage />,
+            },
+            {
+                path: '/rooms',
+                element: <RoomsPage />,
             },
         ],
     },
